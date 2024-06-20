@@ -1,0 +1,8 @@
+Notes on API:
+
+• API is an interface that operates on request-response cycle.
+• Requests are sent to the API endpoint, from where we get valuable information in the form of response.
+• Fetch API internally uses request and response objects.
+• The Fetch API is implemented using the fetch() function, which returns a promise. It accepts parameters - URL(required parameter) and options(optional parameter). When only URL is specified, a default GET request is sent to the API
+• No reloading of webpage is required when APIs are used. Info is updated at runtime.
+• AJAX (Asynchronous JavaScript And XML) - requests/responses to/from the server/API. XML replaced by JSON
